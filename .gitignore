@@ -1,5 +1,4 @@
 .idea/
-.gen/
 .vscode/
 node_modules/
 dist/
