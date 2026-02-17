@@ -1,6 +1,6 @@
 {
   "name": "@primecinema/contracts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Protobuf definition and generated TypeScript types",
   "scripts": {
     "generate": "protoc -I ./proto ./proto/*.proto --ts_proto_out=./gen --ts_proto_opt=nestJs=true,package=omit"
