@@ -1,16 +1,16 @@
 {
   "name": "@primecinema/contracts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Protobuf definition and generated TypeScript types",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-	"format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "generate": "protoc -I ./proto ./proto/*.proto --ts_proto_out=./gen --ts_proto_opt=nestJs=true,package=omit"
   },
   "files": [
-	"dist",
+    "dist",
     "proto",
     "gen"
   ],
