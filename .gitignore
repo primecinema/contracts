@@ -7,6 +7,3 @@ pnpm-lock.yaml
 .env
 .DS_Store
 .log
-gen/ts/**
-!gen/ts/
-!gen/ts/.gitkeep
