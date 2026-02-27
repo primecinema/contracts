@@ -1,4 +1,4 @@
-name: Publish
+name: Publish NPM Package
 
 on:
   push:
@@ -9,6 +9,7 @@ jobs:
   publish:
     name: Publish Job
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
