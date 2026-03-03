@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package seat.v1;
 
-import "google/protobuf/empty.proto";
-
 service SeatService {
   rpc GetSeat (GetSeatRequest) returns (GetSeatResponse);
   rpc ListSeatsByHall (ListSeatsRequest) returns (ListSeatsResponse);
