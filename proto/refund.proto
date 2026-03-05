@@ -19,7 +19,6 @@ message CreateRefundResponse {
 message ProcessRefundEventRequest {
   string event = 1;
   string provider_refund_id = 2;
-  string status = 3;
 }
 
 message ProcessRefundEventResponse {
