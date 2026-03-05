@@ -28,6 +28,8 @@ message ProcessPaymentEventRequest {
   string provider_method_id = 6;
   string card_first6 = 7;
   string card_last4 = 8;
+  string bank = 9;
+  string brand = 10;
 }
 
 message ProcessPaymentEventResponse {
